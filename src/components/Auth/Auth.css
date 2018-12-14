@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.Auth {
+    background-image: linear-gradient(to right, #ff9770, #ffd670);
+    box-shadow: rgb(0, 0, 0, .5) 0px 5px 10px 0px;
+    height: 450px;
+    width: 450px;
+    margin-left: 325px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+}
+.Auth-img {
+    height: 150px;
+    width: 150px;
+}
+.label, .Auth-input {
+    display: inline;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+.Auth-title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 3px;
+    font-size: 50px;
+    margin: 10px;
+}
+.Auth-input {
+    margin: 10px;
+    color: black;
+}
+.Auth-button {
+    margin: 10px;
+    height: 30px;
+    width: 100px;
+    background-image: radial-gradient(to bottom, #666, #555, #444);
+    border: none;
+    color: #fff;
+}
